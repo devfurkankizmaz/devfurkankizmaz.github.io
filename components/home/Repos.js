@@ -7,9 +7,9 @@ const Repos = () => {
       <div className="px-4 mt-10">
         <div className="font-bold text-sm opacity-50">REPOSITORIES</div>
         <hr className="opacity-25 pb-4" />
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm font-thin">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm font-thin">
           <Link href="https://github.com/devfurkankizmaz/go-mongo-rest-app">
-            <div className="cursor-pointer duration-100 ease-in-out space-y-1 blur-xxs  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
+            <div className="cursor-pointer duration-100 ease-in-out space-y-1  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
                 <p className="text-dracula-400 text-xs font-black">
                   go-mongo-rest-app
@@ -26,7 +26,7 @@ const Repos = () => {
             </div>
           </Link>
           <Link href="https://github.com/devfurkankizmaz/devfurkankizmaz.github.io">
-            <div className="cursor-pointer duration-100 ease-in-out space-y-1 blur-xxs  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
+            <div className="cursor-pointer duration-100 ease-in-out space-y-1  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
                 <p className="text-dracula-400 text-xs font-black">
                   devfurkankizmaz.github.io
@@ -43,7 +43,7 @@ const Repos = () => {
             </div>
           </Link>
           <Link href="https://github.com/devfurkankizmaz">
-            <div className="cursor-pointer duration-100 ease-in-out space-y-1 blur-xxs  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
+            <div className="cursor-pointer duration-100 ease-in-out space-y-1   opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
                 <p className="text-dracula-400 text-xs font-black">null</p>
                 <p className="text-gray-300 border text-xs rounded-lg p-1 gap-4">
