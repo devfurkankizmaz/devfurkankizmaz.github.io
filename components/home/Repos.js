@@ -25,7 +25,7 @@ const Repos = () => {
               </div>
             </div>
           </Link>
-          <Link href="https://github.com/devfurkankizmaz/next-js-app">
+          <Link href="https://github.com/devfurkankizmaz/devfurkankizmaz.github.io">
             <div className="cursor-pointer duration-100 ease-in-out space-y-1 blur-xxs  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
                 <p className="text-dracula-400 text-xs font-black">
