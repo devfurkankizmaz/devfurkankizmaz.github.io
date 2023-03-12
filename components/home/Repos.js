@@ -29,7 +29,7 @@ const Repos = () => {
             <div className="cursor-pointer duration-100 ease-in-out space-y-1 blur-xxs  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
                 <p className="text-dracula-400 text-xs font-black">
-                  next-js-app
+                  devfurkankizmaz.github.io
                 </p>
                 <p className="text-gray-300 border text-xs rounded-lg p-1 gap-4">
                   Public
@@ -45,9 +45,7 @@ const Repos = () => {
           <Link href="https://github.com/devfurkankizmaz">
             <div className="cursor-pointer duration-100 ease-in-out space-y-1 blur-xxs  opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
-                <p className="text-dracula-400 text-xs font-black">
-                  null
-                </p>
+                <p className="text-dracula-400 text-xs font-black">null</p>
                 <p className="text-gray-300 border text-xs rounded-lg p-1 gap-4">
                   Public
                 </p>
