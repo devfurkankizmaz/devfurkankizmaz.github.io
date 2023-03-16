@@ -22,7 +22,7 @@ export default function DockerGoArticle() {
               the following code into the terminal for creating Go Project
             </div>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black flex">
-              $ <div className="text-red"> mkdir</div>
+              $&#160;<div className="text-red"> mkdir</div>
               <p>&#160;go-docker-app</p>
             </section>
             <div>
@@ -31,7 +31,7 @@ export default function DockerGoArticle() {
             </div>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black">
               <div className="flex">
-                $ <div className="text-green">cd</div>
+                $&#160;<div className="text-green">cd</div>
                 <p>&#160;go-docker-app</p>
               </div>
               <div className="flex">$ go mod init go-docker-app</div>
@@ -84,7 +84,7 @@ export default function DockerGoArticle() {
             </h2>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black">
               <div className="flex">
-                $<div className="text-red">curl</div>
+                $&#160;<div className="text-red">curl</div>
                 <p>&#160;http://localhost:8080/hello?name=Furkan</p>
               </div>
               <div className="flex">&nbsp;Greetings Furkan</div>
