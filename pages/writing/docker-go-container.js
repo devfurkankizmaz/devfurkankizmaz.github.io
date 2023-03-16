@@ -17,17 +17,18 @@ export default function DockerGoArticle() {
             <Image src={dockergoPic} alt="Docker Go Picture" />
 
             <h1 className="text-2xl font-extrabold">Create a Go Application</h1>
-            <p>
-              Let's create the application that we will make a container. Type the following code into the terminal for creating Go Project
-            </p>
+            <div>
+              Let's create the application that we will make a container. Type
+              the following code into the terminal for creating Go Project
+            </div>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black flex">
               $ <div className="text-red"> mkdir</div>
               <p>&#160;go-docker-app</p>
             </section>
-            <p>
+            <div>
               Change to the directory of the project and init, get go modules
               for required dependency.
-            </p>
+            </div>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black">
               <div className="flex">
                 $ <div className="text-green">cd</div>
@@ -47,9 +48,11 @@ export default function DockerGoArticle() {
             <h2 className="text-2xl font-extrabold">
               Defining the Docker image using a Dockerfile
             </h2>
-            <p>
-              Defining the Docker image for our Go app. Create a new file called "Dockerfile" inside the root directory. Following are the contents of the Dockerfile
-            </p>
+            <div>
+              Defining the Docker image for our Go app. Create a new file called
+              "Dockerfile" inside the root directory. Following are the contents
+              of the Dockerfile
+            </div>
             <p className="underline">
               <Link href="https://github.com/devfurkankizmaz/go-docker/blob/main/Dockerfile">
                 Dockerfile
@@ -58,9 +61,10 @@ export default function DockerGoArticle() {
             <h2 className="text-2xl font-extrabold">
               Build and Run the Docker image
             </h2>
-            <p>
-              That we have the Dockerfile defined, let’s build and run the docker image
-            </p>
+            <div>
+              That we have the Dockerfile defined, let’s build and run the
+              docker image
+            </div>
             <h2 className="text-xm font-extrabold list-disc">
               Building the image
             </h2>
