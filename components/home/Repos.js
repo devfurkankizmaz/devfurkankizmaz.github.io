@@ -42,18 +42,18 @@ const Repos = () => {
               </div>
             </div>
           </Link>
-          <Link href="https://github.com/devfurkankizmaz">
-            <div className="cursor-pointer duration-100 ease-in-out space-y-1   opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
+          <Link href="https://github.com/devfurkankizmaz/go-docker">
+            <div className="cursor-pointer duration-100 ease-in-out space-y-1 opacity-75 dark:bg-nosferatu-700 bg-nosferatu-200 p-3 rounded-md dark:border-nosferatu-50 border-nosferatu-500 hover:border-b-4">
               <div className="flex items-center justify-between">
-                <p className="text-dracula-400 text-xs font-black">null</p>
+                <p className="text-dracula-400 text-xs font-black">go-docker</p>
                 <p className="text-gray-300 border text-xs rounded-lg p-1 gap-4">
                   Public
                 </p>
               </div>
-              <p className="text-xs">null</p>
+              <p className="text-xs">Dockerfile for Simple GO Server</p>
               <div className="flex items-center space-x-2">
                 <div className="bg-white border-none rounded-full w-3 h-3"></div>
-                <p className="">null</p>
+                <p className="">Dockerfile</p>
               </div>
             </div>
           </Link>

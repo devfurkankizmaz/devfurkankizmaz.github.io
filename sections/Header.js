@@ -24,7 +24,7 @@ const Header = () => {
     
     if (currentTheme === "dark") {
       return (
-        <div className="border-2 rounded-full p-1 border-aro"><BsSunFill
+        <div className="border-2 rounded-full p-1 border-aro dark:border-nosferatu-200"><BsSunFill
           className="w-5 h-5  text-yellow-500"
           role="button"
           onClick={() => setTheme("light")}
@@ -32,7 +32,7 @@ const Header = () => {
       );
     } else {
       return (
-        <div className="border-2 rounded-full p-1 border-aro"><BsMoonFill
+        <div className="border-2 rounded-full p-1 border-aro dark:border-nosferatu-200"><BsMoonFill
           className="w-5 h-5 text-gray-900"
           role="button"
           onClick={() => setTheme("dark")}

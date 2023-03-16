@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       blur: {
-        xxs: '0.15px',
-      }
+        xxs: "0.15px",
+      },
     },
     screens: {
       sm: "640px",
@@ -29,5 +29,5 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  plugins: [require('tailwind-dracula')()],
+  plugins: [require("tailwind-dracula")(), require("tailwindcss-hyphens")],
 };
