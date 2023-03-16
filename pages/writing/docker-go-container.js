@@ -1,6 +1,7 @@
 import Layout from "@/sections/Layout";
-
+import Image from "next/image";
 import Link from "next/link";
+import dockergoPic from "@/public/golang-docker.png";
 
 export default function DockerGoArticle() {
   return (
@@ -13,14 +14,16 @@ export default function DockerGoArticle() {
             </h2>
             <h1 className="pt-2">3-16-2023</h1>
 
+            <Image src={dockergoPic} alt="Docker Go Picture" />
+
             <h1 className="text-2xl font-extrabold">Create a Go Application</h1>
             <p>
               Let's create the application that we will make a container. Type
               the following code into the terminal for creating Go Project
             </p>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black flex">
-              $&nbsp;&nbsp;<div className="text-red">mkdir</div>
-              &nbsp;go-docker-app
+              $ <div className="text-red"> mkdir</div>
+              <p>&#160;go-docker-app</p>
             </section>
             <p>
               Change to the directory of the project and init, get go modules
@@ -28,13 +31,11 @@ export default function DockerGoArticle() {
             </p>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black">
               <div className="flex">
-                $&nbsp;&nbsp;<div className="text-green">cd</div>
-                &nbsp;go-docker-app
+                $ <div className="text-green">cd</div>
+                <p>&#160;go-docker-app</p>
               </div>
-              <div className="flex">$&nbsp;&nbsp;go mod init go-docker-app</div>
-              <div className="flex">
-                $&nbsp;&nbsp;go get -u github.com/gin-gonic/gin
-              </div>
+              <div className="flex">$ go mod init go-docker-app</div>
+              <div className="flex">$ go get -u github.com/gin-gonic/gin</div>
             </section>
             <p>
               We'll creating Greeter server. Create a new file called main.go
@@ -83,8 +84,8 @@ export default function DockerGoArticle() {
             </h2>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black">
               <div className="flex">
-                $&nbsp;&nbsp;<div className="text-red">curl</div>
-                &nbsp;http://localhost:8080/hello?name=Furkan
+                $<div className="text-red">curl</div>
+                <p>&#160;http://localhost:8080/hello?name=Furkan</p>
               </div>
               <div className="flex">&nbsp;Greetings Furkan</div>
             </section>
