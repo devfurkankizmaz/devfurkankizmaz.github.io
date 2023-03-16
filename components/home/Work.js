@@ -9,59 +9,34 @@ const Work = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 ">
           <div>
-            <div className="text-xs opacity-60 italic ">2022.02 - 2022.09</div>
-            <div className="leading-tight font-bold">Backend Developer</div>
-            <div className="font-medi text-sm">Freelancer</div>
+            <div className="text-xs opacity-60 italic ">
+              2021 &#40;6 Months&#41;
+            </div>
+            <div className="leading-tight font-bold">Intern</div>
+            <div className="font-light text-sm">Tekin Mühendislik</div>
             <div>
               <ul className="text-xs list-disc ml-4 opacity-90 mt-2 font-[300]">
                 <li className="mb-1.5">
-                  Nostrud proident mollit elit sit laborum do.
-                </li>
-                <li className="mb-1.5">
-                  Duis incididunt amet commodo ipsum voluptate tempor cillum.
-                </li>
-                <li className="mb-1.5">
-                  Laborum mollit excepteur laborum proident sint aliquip labore
-                  enim fugiat aliquip ut veniam sint.
+                  Electrical and Lighting Plans drawing in AutoCAD
                 </li>
               </ul>
             </div>
           </div>
           <div>
-            <div className="text-xs opacity-60 italic ">2022.02 - 2022.09</div>
-            <div className="leading-tight font-bold">Intern</div>
-            <div className="font-light text-sm">Freelancer</div>
-            <div>
-              <ul className="text-xs list-disc ml-4 opacity-90 mt-2 font-[300]">
-                <li className="mb-1.5">
-                  Nostrud proident mollit elit sit laborum do.
-                </li>
-                <li className="mb-1.5">
-                  Duis incididunt amet commodo ipsum voluptate tempor cillum.
-                </li>
-                <li className="mb-1.5">
-                  Laborum mollit excepteur laborum proident sint aliquip labore
-                  enim fugiat aliquip ut veniam sint.
-                </li>
-              </ul>
+            <div className="text-xs opacity-60 italic ">
+              2013 &#40;8 Months&#41;
             </div>
-          </div>
-          <div>
-            <div className="text-xs opacity-60 italic ">2022.02 - 2022.09</div>
             <div className="leading-tight font-bold">Intern</div>
-            <div className="font-light text-sm">Freelancer</div>
+            <div className="font-light text-sm">
+              Intertech IT and Marketing Inc.
+            </div>
             <div>
               <ul className="text-xs list-disc ml-4 opacity-90 mt-2 font-[300]">
                 <li className="mb-1.5">
-                  Nostrud proident mollit elit sit laborum do.
+                  Installing and configuring computer hardware, software,
+                  systems, networks, printers, and scanners.
                 </li>
-                <li className="mb-1.5">
-                  Duis incididunt amet commodo ipsum voluptate tempor cillum.
-                </li>
-                <li className="mb-1.5">
-                  Laborum mollit excepteur laborum proident sint aliquip labore
-                  enim fugiat aliquip ut veniam sint.
-                </li>
+                <li className="mb-1.5">Setting up accounts for new users.</li>
               </ul>
             </div>
           </div>
