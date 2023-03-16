@@ -18,8 +18,7 @@ export default function DockerGoArticle() {
 
             <h1 className="text-2xl font-extrabold">Create a Go Application</h1>
             <p>
-              Let's create the application that we will make a container. Type
-              the following code into the terminal for creating Go Project
+              Let's create the application that we will make a container. Type the following code into the terminal for creating Go Project
             </p>
             <section className="rounded-md bg-nosferatu-200 py-2 pl-2 text-black flex">
               $ <div className="text-red"> mkdir</div>
@@ -49,9 +48,7 @@ export default function DockerGoArticle() {
               Defining the Docker image using a Dockerfile
             </h2>
             <p>
-              Defining the Docker image for our Go app. Create a new file called
-              "Dockerfile" inside the root directory. Following are the contents
-              of the Dockerfile
+              Defining the Docker image for our Go app. Create a new file called "Dockerfile" inside the root directory. Following are the contents of the Dockerfile
             </p>
             <p className="underline">
               <Link href="https://github.com/devfurkankizmaz/go-docker/blob/main/Dockerfile">
@@ -62,8 +59,7 @@ export default function DockerGoArticle() {
               Build and Run the Docker image
             </h2>
             <p>
-              That we have the Dockerfile defined, let’s build and run the
-              docker image
+              That we have the Dockerfile defined, let’s build and run the docker image
             </p>
             <h2 className="text-xm font-extrabold list-disc">
               Building the image
